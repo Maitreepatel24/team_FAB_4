@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hostel Management System</title>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Hostel Management System"
+    />
+    <!-- /meta tags -->
+    <!-- custom style sheet -->
+    <link href="web/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- /custom style sheet -->
+    <!-- fontawesome css -->
+    <link href="web/css/fontawesome-all.css" rel="stylesheet" />
+    <!-- /fontawesome css -->
+    <!-- google fonts-->
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <!-- /google fonts-->
+
+</head>
+
+
+<body>
+    <h1>Hostel Management System</h1>
+    <div class=" w3l-login-form">
+        <h2>Parent Login</h2>
+        <!--form action="includes/login.inc.php" method="POST">
+
+            <div class=" w3l-form-group">
+                <label>Student ID:</label>
+                <div class="group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="form-control" name="student_ID" placeholder="ID" required="required" />
+                </div>
+            </div>
+            <div class=" w3l-form-group">
+                <label>Password:</label>
+                <div class="group">
+                    <i class="fas fa-unlock"></i>
+                    <input type="password" class="form-control" name="pwd" placeholder="Password" required="required" />
+                </div>
+            </div>
+            <div class="forgot">
+                <a href="#">Forgot Password?</a>
+                <p><input type="checkbox">Remember Me</p>
+            </div>-->
+            <!--a href=""><button type="submit" name="login-submit">Login</button></a>
+        </form-->
+
+        <form action="includes/login.inc.php" method="POST">
+
+            <div class=" w3l-form-group">
+                <label>Student ID:</label>
+                <div class="group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="form-control" name="student_roll_no" placeholder="Roll No" required="required" />
+                </div>
+            </div>
+            <div class=" w3l-form-group">
+                <label>Password:</label>
+                <div class="group">
+                    <i class="fas fa-unlock"></i>
+                    <input type="password" class="form-control" name="pwd" placeholder="Password" required="required" />
+                </div>
+            </div>
+            <!--<div class="forgot">
+                <a href="#">Forgot Password?</a>
+                <p><input type="checkbox">Remember Me</p>
+            </div>-->
+            <button type="submit" name="login-submit">Login</button>
+        </form>
+
+    </div>
+   <?php include('footer.php');?>
+
+</body>
+
+</html>
